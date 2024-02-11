@@ -26,11 +26,23 @@
 
 ## 📦 Packages
 
-### TOAST UI Editor
+### Packages Used in the Project.
 
 | Name | Description |
 | --- | --- |
-| [`@toast-ui/editor`](https://github.com/nhn/tui.editor/tree/master/apps/editor) | Plain JavaScript component |
+| Selenium | Python Library for Data Scraping |
+| --- | --- |
+| Pandas | Python Library for Data Cleaning & EDA |
+| --- | --- |
+| Numpy | Python Library |
+| --- | --- |
+| Matplotlib | Python Library for Visualization of data |
+| --- | --- |
+| Seaborn | Python Library for Visualization of data |
+| --- | --- |
+| Scikit-Learn | Python Library for Machine learning Models|
+| --- | --- |
+|  | Python Library |
 
 ### TOAST UI Editor's Wrappers
 
