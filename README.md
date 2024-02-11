@@ -29,11 +29,11 @@
 ### Packages Used in the Project.
 
 | Name | Description |
-|  |  |
+| --- | --- |
 | Selenium | Python Library for Data Scraping |
-|  |  |
+| --- | --- |
 | Pandas | Python Library for Data Cleaning & EDA |
-|  |  |
+| --- | --- |
 | Numpy | Python Library |
 | --- | --- |
 | Matplotlib | Python Library for Visualization of data |
