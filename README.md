@@ -41,8 +41,6 @@
 | Seaborn | Python Library for Visualization of data |
 | --- | --- |
 | Scikit-Learn | Python Library for Machine learning Models|
-| --- | --- |
-|  | Python Library |
 
 ### TOAST UI Editor's Wrappers
 
