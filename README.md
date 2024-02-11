@@ -3,12 +3,12 @@
 
 # ![TOAST UI Editor](https://uicdn.toast.com/toastui/img/tui-editor-bi.png)
 
-> Fahad Ur Rehman  Markdown and Github Editor - It's how you deal with failure that determines how you achieve success
+> Fahad Ur Rehman  Markdown and Github Editor - It's how you deal with failure that determines how you achieve success.
 
-![Name Logo](https://github.com/FahadUrRehman07/ds_Salary_proj/assets/128632222/e015605f-211a-4274-b4f2-cdc3b6c8d270)
+<p align="center">
+  ![Name Logo](https://github.com/FahadUrRehman07/ds_Salary_proj/assets/128632222/e015605f-211a-4274-b4f2-cdc3b6c8d270)
+</p>
 
-
-<img src="https://user-images.githubusercontent.com/37766175/121809054-446bac80-cc96-11eb-9139-08c6d9ad2d88.png" />
 
 
 ## 🚩 Table of Contents
