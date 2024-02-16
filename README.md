@@ -1,4 +1,4 @@
-# <kbd size = "20px"> Data Science Salary Prediction Project </kbd> 
+# <kbd size = "50px"> Data Science Salary Prediction Project </kbd> 
 ![myImage](https://img.shields.io/badge/Blogger-FF5722?style=for-the-badge&logo=blogger&logoColor=white)
 ![myImage](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)
 ![myImage](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
