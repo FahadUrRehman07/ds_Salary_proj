@@ -54,33 +54,56 @@
 |    json    | Data to be used in flask app                      |
 
 # Code and Resources Used
-
+The references of code and resources that I took help from to understand and learn and make this project happen.
 | Name | Description | Resource Link
 | --- | --- | --- |
-|  Python | Version = 7.3 |https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe|
+|  Python | Version = 3.7 |https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe|
 | Packages| These are all packages used in project | pandas, numpy, sklearn, seaborn, matplotlib, selenium, flask, json, pickle|
 | Web Framework Requirements | Plugin to highlight code syntax | pip install -r requirements.txt
 | Scraper Github | I got alot of help and used his code | https://github.com/arapfaik/scraping-glassdoor-selenium.
 |  Flask Productionizing | this article help to productionize my flask API | https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
 
 
-## 🤖 Why TOAST UI Editor?
+## 🤖 Wed Scraping:
 
-TOAST UI Editor provides **Markdown mode** and **WYSIWYG mode**. Depending on the type of use you want like production of *Markdown* or maybe to just edit the *Markdown*. The TOAST UI Editor can be helpful for both the usage. It offers **Markdown mode** and **WYSIWYG mode**, which can be switched any point in time.
+Tweaked the web scraper github repo **above** to scrape **1000** job posting from **glassdoor**. With each job we got the following:
 
-### Productive Markdown Mode
+* Job title.
+* Salary Estimate.
+* Job Description.
+* Rating.
+* Company.
+* Location.
+* Company Headquarters.
+* Company Size.
+* Company Founded Date.
+* Type of Ownership.
+* Industry.
+* Sector.
+* Revenue.
+* Competitors
 
-![markdown](https://user-images.githubusercontent.com/37766175/121464762-71e2fc80-c9ef-11eb-9a0a-7b06e08d3ccb.png)
+**Data Cleaning**
+After scraping the data. I needed to clean it up so that i was usable for our model. I made the following changes and created the following variable.
 
-**CommonMark + GFM Specifications**
+* Parsed numeric data out of salary.
+* mMade columns for employer provided salary and hourly wage.
+* Removed  rows without salary.
+* Parsed rating out of company text.
+* Made a new column for company state.
+* Added a column for if the job was at the company's headquarters.
+* Transformed founded date into age of company.
+* Made column for if different skills were listed in the job description:
+    - Python.
+    - R
+    - Excel.
+    - AWS
+    - Spark
+* Column for simplified job title and seniority.
+* Column for description length.
 
-Today *CommonMark* is the de-facto *Markdown* standard. *GFM (GitHub Flavored Markdown)* is another popular specification based on *CommonMark* - maintained by *GitHub*, which is the *Markdown* mostly used. TOAST UI Editor follows both [*CommonMark*](http://commonmark.org/) and [*GFM*](https://github.github.com/gfm/) specifications. Write documents with ease using productive tools provided by TOAST UI Editor and you can easily open the produced document wherever the specifications are supported.
 
-* **Live Preview** : Edit Markdown while keeping an eye on the rendered HTML. Your edits will be applied immediately.
-* **Scroll Sync** : Synchronous scrolling between Markdown and Preview. You don't need to scroll through each one separately.
-* **Syntax Highlight** : You can check broken Markdown syntax immediately.
-
-### Easy WYSIWYG Mode
+### Exploratory Data Analysis ( EDA)
 
 ![wysiwyg](https://user-images.githubusercontent.com/37766175/121808381-251f5000-cc93-11eb-8c47-4f5a809de2b3.png)
 
