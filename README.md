@@ -16,18 +16,17 @@
 
 
 # 🚩 Table of Contents
+- [Project-Overview](link)
+- [Packages](link)
+- [Code and Resources Used](link)
+- [Wed Scraping](link)
+- [Data Cleaning](link)
+- [Exploratory Data Analysis ( EDA)](link)
+- [Model Building](link)
+- [Model Performance](link)
+- [Productionization](link)
 
-- [Peoject Overview](#-Project-Overview)
-- [Packages](#-packages)
-- [Why TOAST UI Editor?](#-why-toast-ui-editor)
-- [Features](#-features)
-- [Examples](#-examples)
-- [Browser Support](#-browser-support)
-- [Pull Request Steps](#-pull-request-steps)
-- [Contributing](#-contributing)
-- [TOAST UI Family](#-toast-ui-family)
-- [Used By](#-used-by)
-- [License](#-license)
+
 
 
 # Data Science Salary Estimator: Project-Overview
