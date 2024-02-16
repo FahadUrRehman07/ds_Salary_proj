@@ -105,7 +105,7 @@ After scraping the data. I needed to clean it up so that i was usable for our mo
 
 ### Exploratory Data Analysis ( EDA)
 
-![wysiwyg](https://user-images.githubusercontent.com/37766175/121808381-251f5000-cc93-11eb-8c47-4f5a809de2b3.png)
+salary_by_job_title.PNG
 
 * **Table** : Through the context menu of the table, you can add or delete columns or rows of the table, and you can also arrange text in cells.
 * **Custom Block Editor** : The custom block area can be edited through the internal editor.
