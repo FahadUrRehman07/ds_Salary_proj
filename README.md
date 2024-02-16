@@ -51,7 +51,7 @@
 |   Pickle   | Used for make the pickle file to use in flask app |
 |    json    | Data to be used in flask app                      |
 
-# Code and Resources Used
+# ![icons8-resources-50](https://github.com/FahadUrRehman07/ds_Salary_proj/assets/128632222/da648015-1b39-46e7-b842-c607bf5f3fcd) Code and Resources Used
 The references of code and resources that I took help from to understand and learn and make this project happen.
 | Name | Description | Resource Link
 | --- | --- | --- |
@@ -121,7 +121,7 @@ I tried three different models.
 
 * **Random Forest** : Again with the sparsity associated with the data. I thought that this would be a good fit.
   
-# Model Performance
+# ![icons8-3d-model-50](https://github.com/FahadUrRehman07/ds_Salary_proj/assets/128632222/a84ee45f-41d6-41b3-bf1a-8b13f79a6aa5) Model Performance
 The Random Forest model for outperformed the other approaches on the test and validation sets.
 
 * **Random Forest:** MAE ≈ 11.22
