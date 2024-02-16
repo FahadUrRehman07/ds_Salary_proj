@@ -55,13 +55,13 @@
 
 # Code and Resources Used
 
-| Name | Description |
-| --- | --- |
-| https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe | Version = 7.3 |
-| [`@toast-ui/editor-plugin-code-syntax-highlight`](https://github.com/nhn/tui.editor/tree/master/plugins/code-syntax-highlight) | Plugin to highlight code syntax |
-| [`@toast-ui/editor-plugin-color-syntax`](https://github.com/nhn/tui.editor/tree/master/plugins/color-syntax) | Plugin to color editing text |
-| [`@toast-ui/editor-plugin-table-merged-cell`](https://github.com/nhn/tui.editor/tree/master/plugins/table-merged-cell) | Plugin to merge table columns |
-| [`@toast-ui/editor-plugin-uml`](https://github.com/nhn/tui.editor/tree/master/plugins/uml) | Plugin to render UML |
+| Name | Description | Resource Link
+| --- | --- | --- |
+|  Python | Version = 7.3 |https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe|
+| Packages| These are all packages used in project | pandas, numpy, sklearn, seaborn, matplotlib, selenium, flask, json, pickle|
+| Web Framework Requirements | Plugin to highlight code syntax | pip install -r requirements.txt
+| Scraper Github | I got alot of help and used his code | https://github.com/arapfaik/scraping-glassdoor-selenium.
+|  Flask Productionizing | this article help to productionize my flask API | https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
 
 
 ## 🤖 Why TOAST UI Editor?
