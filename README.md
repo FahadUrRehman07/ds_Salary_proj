@@ -8,7 +8,7 @@
 #### Hi there! Wellcome to the Project.
 
 <img src="https://github.com/FahadUrRehman07/ds_Salary_proj/assets/128632222/e015605f-211a-4274-b4f2-cdc3b6c8d270" width="100%" height="350" align="center">
->It's how you deal with failure that determines how you achieve success.
+>``` It's how you deal with failure that determines how you achieve success. ```
 
  
 
@@ -110,7 +110,7 @@ I looked at the distribution of the data and the value counts for the various ca
 ![correlation_visual](https://github.com/FahadUrRehman07/ds_Salary_proj/assets/128632222/a9e14311-5411-4af6-a87e-8d46f3bfb6be)
 
 
-# Model Building
+# ![icons8-animated-skeleton-100](https://github.com/FahadUrRehman07/ds_Salary_proj/assets/128632222/54c5c1f1-2a73-4752-9868-ceff8989e82c) Model Building
 First, I transformed the categorical variable into dummy variables. I also split the data into train and tests sets with a test size of 20%.
 I tried three different models and evaluated them using **Mean Abosulte Error**. I choose **MAE** because it is relatively easy to interpret and outliers aren't particulary bad in for the type of model.
 
@@ -121,13 +121,13 @@ I tried three different models.
 * **Lasso Regression** : Because of the sparse data from the many sategorical variables. I thought a normalized regression like lasso would be effective.
 
 * **Random Forest** : Again with the sparsity associated with the data. I thought that this would be a good fit.
-* 
+  
 # Model Performance
 The Random Forest model for outperformed the other approaches on the test and validation sets.
 
-* **Random Forest:** MAE  11.22
-* **Linear Regression:** MAE 18.86
-* **Ridge Regression:** MAE  19.67
+* **Random Forest:** MAE ≈ 11.22
+* **Linear Regression:** MAE ≈ 18.86
+* **Ridge Regression:** MAE ≈ 19.67
 
 # 🎨 Productionization
 
