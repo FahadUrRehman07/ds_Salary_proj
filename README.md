@@ -8,7 +8,7 @@
 #### Hi there! Wellcome to the Project.
 
 <img src="https://github.com/FahadUrRehman07/ds_Salary_proj/assets/128632222/e015605f-211a-4274-b4f2-cdc3b6c8d270" width="100%" height="350" align="center">
-> It's how you deal with failure that determines how you achieve success.
+>It's how you deal with failure that determines how you achieve success.
 
  
 
