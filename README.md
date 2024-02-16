@@ -16,15 +16,15 @@
 
 
 # 🚩 Table of Contents
-- [Project-Overview](link)
-- [Packages](link)
-- [Code and Resources Used](link)
-- [Wed Scraping](link)
-- [Data Cleaning](link)
-- [Exploratory Data Analysis ( EDA)](link)
-- [Model Building](link)
-- [Model Performance](link)
-- [Productionization](link)
+- [Project-Overview](https://github.com/FahadUrRehman07/ds_Salary_proj/blob/main/README.md#data-science-salary-estimator-project-overview)
+- [Packages](https://github.com/FahadUrRehman07/ds_Salary_proj/blob/main/README.md#-packages)
+- [Code and Resources Used](https://github.com/FahadUrRehman07/ds_Salary_proj/blob/main/README.md#code-and-resources-used)
+- [Wed Scraping](https://github.com/FahadUrRehman07/ds_Salary_proj/blob/main/README.md#-wed-scraping)
+- [Data Cleaning](https://github.com/FahadUrRehman07/ds_Salary_proj/blob/main/README.md#data-cleaning)
+- [Exploratory Data Analysis ( EDA)](https://github.com/FahadUrRehman07/ds_Salary_proj/blob/main/README.md#exploratory-data-analysis--eda)
+- [Model Building](https://github.com/FahadUrRehman07/ds_Salary_proj/blob/main/README.md#model-building)
+- [Model Performance](https://github.com/FahadUrRehman07/ds_Salary_proj/blob/main/README.md#model-performance)
+- [Productionization](https://github.com/FahadUrRehman07/ds_Salary_proj/blob/main/README.md#-productionization)
 
 
 
