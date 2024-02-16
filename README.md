@@ -1,6 +1,6 @@
 # ds_Salary_proj
 
-<img src="{[BadgeURLHere](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)}" />
+<img src="{https://img.shields.io/badge/Blogger-FF5722?style=for-the-badge&logo=blogger&logoColor=white}" />
 ![image]({https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white})  
 ![image]({https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white})  
 
