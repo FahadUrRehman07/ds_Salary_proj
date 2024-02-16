@@ -1,4 +1,4 @@
-# <kbd size = "50px"> Data Science Salary Prediction Project </kbd> 
+#  Data Science Salary Prediction Project 
 ![myImage](https://img.shields.io/badge/Blogger-FF5722?style=for-the-badge&logo=blogger&logoColor=white)
 ![myImage](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)
 ![myImage](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
@@ -8,14 +8,14 @@
 #### Hi there! Wellcome to the Project.
 
 <img src="https://github.com/FahadUrRehman07/ds_Salary_proj/assets/128632222/e015605f-211a-4274-b4f2-cdc3b6c8d270" width="100%" height="350" align="center">
-It's how you deal with failure that determines how you achieve success.
+> It's how you deal with failure that determines how you achieve success.
 
  
 
 
 
 
-## 🚩 Table of Contents
+# 🚩 Table of Contents
 
 - [Peoject Overview](#-Project-Overview)
 - [Packages](#-packages)
@@ -30,14 +30,14 @@ It's how you deal with failure that determines how you achieve success.
 - [License](#-license)
 
 
-## Data Science Salary Estimator: Project-Overview
+# Data Science Salary Estimator: Project-Overview
 * Created a tool that estimates data science [MAE ~ 11k] to help data scientists to negotiate their income when they get a job.
 *  Scraped over 1000 job descriptions from glassdoor using Python and Selenium.
 *  Engineered features from the text of each job description to quantify the value companies put on python, excel, aws and spark.
 *  Optimized Linear, Lasoo and Random Forest Regression using GridSearchCV to reach the best model.
 *  Built a client facing API using Flask
 
-## 📦 Packages
+# 📦 Packages
 
 ### Packages Used in the Project.
 
@@ -72,7 +72,7 @@ The references of code and resources that I took help from to understand and lea
 |  Flask Productionizing | this article help to productionize my flask API | https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
 
 
-## 🤖 Wed Scraping:
+# 🤖 Wed Scraping:
 
 Tweaked the web scraper github repo **above** to scrape **1000** job posting from **glassdoor**. With each job we got the following:
 
@@ -111,7 +111,7 @@ After scraping the data. I needed to clean it up so that i was usable for our mo
 * Column for **description length**.
 
 
-### Exploratory Data Analysis ( EDA)
+# Exploratory Data Analysis ( EDA)
 I looked at the distribution of the data and the value counts for the various categorical variables.Below are a few highlights from the pivot tables.
 
 ![salary_by_job_title](https://github.com/FahadUrRehman07/ds_Salary_proj/assets/128632222/274b4c4b-11ac-4d4f-89f8-d8218a1af8c5)  ![positions_by_state](https://github.com/FahadUrRehman07/ds_Salary_proj/assets/128632222/101cd04b-e540-4712-8fc1-1bee200c108f)
@@ -119,7 +119,7 @@ I looked at the distribution of the data and the value counts for the various ca
 ![correlation_visual](https://github.com/FahadUrRehman07/ds_Salary_proj/assets/128632222/a9e14311-5411-4af6-a87e-8d46f3bfb6be)
 
 
-### Model Building
+# Model Building
 First, I transformed the categorical variable into dummy variables. I also split the data into train and tests sets with a test size of 20%.
 I tried three different models and evaluated them using **Mean Abosulte Error**. I choose **MAE** because it is relatively easy to interpret and outliers aren't particulary bad in for the type of model.
 
@@ -131,13 +131,13 @@ I tried three different models.
 
 * **Random Forest** : Again with the sparsity associated with the data. I thought that this would be a good fit.
 * 
-### Model Performance
+# Model Performance
 The Random Forest model for outperformed the other approaches on the test and validation sets.
 
 * **Random Forest:** MAE  11.22
 * **Linear Regression:** MAE 18.86
 * **Ridge Regression:** MAE  19.67
 
-## 🎨 Productionization
+# 🎨 Productionization
 
 In this step. I built a **flask API** endpoint that was hosted on a local webserver by following along with the **TDS tutorial** in the reference section **above**. The API endpoint takes in a request with a list of values from a job listing and returns an **estimated salary**.
