@@ -83,24 +83,24 @@ Tweaked the web scraper github repo **above** to scrape **1000** job posting fro
 * Revenue.
 * Competitors
 
-**Data Cleaning**
+# Data Cleaning
 After scraping the data. I needed to clean it up so that i was usable for our model. I made the following changes and created the following variable.
 
-* Parsed numeric data out of salary.
-* mMade columns for employer provided salary and hourly wage.
+* Parsed **numeric data out of salary**.
+* Made columns for **employer provided salary** and **hourly wage**.
 * Removed  rows without salary.
-* Parsed rating out of company text.
-* Made a new column for company state.
-* Added a column for if the job was at the company's headquarters.
-* Transformed founded date into age of company.
-* Made column for if different skills were listed in the job description:
-    - Python.
-    - R
-    - Excel.
-    - AWS
-    - Spark
-* Column for simplified job title and seniority.
-* Column for description length.
+* Parsed **rating** out of company text.
+* Made a **new column** for company state.
+* Added a column for if the **job was at the company's headquarters**.
+* Transformed founded **date into age of company**.
+* Made column for if different **skills** were listed in the **job description**:
+    - **Python**
+    - **R**
+    - **Excel**
+    - **AWS**
+    - **Spark**
+* Column for simplified **job title** and **seniority**.
+* Column for **description length**.
 
 
 ### Exploratory Data Analysis ( EDA)
