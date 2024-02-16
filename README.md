@@ -1,8 +1,5 @@
 # ds_Salary_proj
 
-
-# ![TOAST UI Editor](https://uicdn.toast.com/toastui/img/tui-editor-bi.png)
-
 > Fahad Ur Rehman  Markdown and Github Editor - It's how you deal with failure that determines how you achieve success.
 
   ![Name Logo](https://github.com/FahadUrRehman07/ds_Salary_proj/assets/128632222/e015605f-211a-4274-b4f2-cdc3b6c8d270)
@@ -12,6 +9,7 @@
 
 ## 🚩 Table of Contents
 
+- [Peoject Overview](#-Project-Overview)
 - [Packages](#-packages)
 - [Why TOAST UI Editor?](#-why-toast-ui-editor)
 - [Features](#-features)
@@ -40,7 +38,13 @@
 | --- | --- |
 | Seaborn | Python Library for Visualization of data |
 | --- | --- |
-| Scikit-Learn | Python Library for Machine learning Models|
+| SkLearn | Python Library for Machine learning Models|
+| --- | --- |
+| flask | To put trained model into flask app|
+| --- | --- |
+| Pickle | Used for make the pickle file to use in flask app |
+| --- | --- |
+| json | Data to be used in flask app|
 
 ### TOAST UI Editor's Wrappers
 
