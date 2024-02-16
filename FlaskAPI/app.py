@@ -1,7 +1,7 @@
 import flask
 from flask import Flask, jsonify, request
 import json
-from data_input import data_in
+from Data_input import data_in
 import numpy as np
 import pickle
 # .........................................................................................................................................
@@ -23,10 +23,12 @@ def predict():
 # .........................................................................................................................................
 def predict():
     # stub input features
-    x = np.array(data_in).reshape(1,-1)
+    request_json = request.get_json()
+    x = float(request_json['input'])
+    x_in = np.array(x).reshape(1,-1)
     # load model
     model = load_models()
-    prediction = model.predict(x)[0]
+    prediction = model.predict(x_in)[0]
     response = json.dumps({'response': prediction})
     return response, 200
 
