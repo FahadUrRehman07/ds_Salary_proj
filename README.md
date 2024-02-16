@@ -22,6 +22,10 @@
 - [License](#-license)
 
 
+## Data Science Salary Estimator: Project-Overview
+* Created a tool that estimates data science [MAE ~ 11k] to helo data scientists to negotiate their income when they get a job.
+*  Scraped over 1000 job descriptions from glassdoor using Python and Selenium
+
 ## 📦 Packages
 
 ### Packages Used in the Project.
