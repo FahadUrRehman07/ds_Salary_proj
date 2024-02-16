@@ -81,7 +81,7 @@ Tweaked the web scraper github repo **above** to scrape **1000** job posting fro
 * Revenue.
 * Competitors
 
-# Data Cleaning
+# ![icons8-data-cleaning-68](https://github.com/FahadUrRehman07/ds_Salary_proj/assets/128632222/674f22b6-23c1-4c40-8eee-8484d0065a8d) Data Cleaning
 After scraping the data. I needed to clean it up so that i was usable for our model. I made the following changes and created the following variable.
 
 * Parsed **numeric data out of salary**.
@@ -101,7 +101,7 @@ After scraping the data. I needed to clean it up so that i was usable for our mo
 * Column for **description length**.
 
 
-# Exploratory Data Analysis ( EDA)
+# ![icons8-data-analysis-30](https://github.com/FahadUrRehman07/ds_Salary_proj/assets/128632222/79ab3b0b-a801-4ce4-9eb7-2408ad8d4417) Exploratory Data Analysis ( EDA)
 I looked at the distribution of the data and the value counts for the various categorical variables.Below are a few highlights from the pivot tables.
 
 ![salary_by_job_title](https://github.com/FahadUrRehman07/ds_Salary_proj/assets/128632222/274b4c4b-11ac-4d4f-89f8-d8218a1af8c5)  ![positions_by_state](https://github.com/FahadUrRehman07/ds_Salary_proj/assets/128632222/101cd04b-e540-4712-8fc1-1bee200c108f)
