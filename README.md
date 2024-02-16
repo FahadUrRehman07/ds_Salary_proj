@@ -5,8 +5,10 @@
 ![myImage](https://img.shields.io/badge/Coursera-0056D2?style=for-the-badge&logo=Coursera&logoColor=white)
 ![myImage](https://img.shields.io/badge/conda-342B029.svg?&style=for-the-badge&logo=anaconda&logoColor=white)
 
-<img src="https://github.com/FahadUrRehman07/ds_Salary_proj/assets/128632222/e015605f-211a-4274-b4f2-cdc3b6c8d270" width="42" height="42" align="right">
-> Fahad Ur Rehman  Markdown and Github Editor - It's how you deal with failure that determines how you achieve success.
+#### Hi there! Wellcome to the Project.
+
+<img src="https://github.com/FahadUrRehman07/ds_Salary_proj/assets/128632222/e015605f-211a-4274-b4f2-cdc3b6c8d270" width="100" height="100" align="center">
+It's how you deal with failure that determines how you achieve success.
 
   ![Name Logo](https://github.com/FahadUrRehman07/ds_Salary_proj/assets/128632222/e015605f-211a-4274-b4f2-cdc3b6c8d270)
 
