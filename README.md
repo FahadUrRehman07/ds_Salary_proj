@@ -23,8 +23,11 @@
 
 
 ## Data Science Salary Estimator: Project-Overview
-* Created a tool that estimates data science [MAE ~ 11k] to helo data scientists to negotiate their income when they get a job.
-*  Scraped over 1000 job descriptions from glassdoor using Python and Selenium
+* Created a tool that estimates data science [MAE ~ 11k] to help data scientists to negotiate their income when they get a job.
+*  Scraped over 1000 job descriptions from glassdoor using Python and Selenium.
+*  Engineered features from the text of each job description to quantify the value companies put on python, excel, aws and spark.
+*  Optimized Linear, Lasoo and Random Forest Regression using GridSearchCV to reach the best model.
+*  Built a client facing API using Flask
 
 ## 📦 Packages
 
@@ -44,18 +47,16 @@
 |    ---     |                       ---                         |
 |  SkLearn   | Python Library for Machine learning Models        |
 |    ---     |                       ---                         |
-|   flask    | To put trained model into flask app               |
+|   flask    | To built client facing API                        |
 |    ---     |                       ---                         |
 |   Pickle   | Used for make the pickle file to use in flask app |
 |    ---     |                       ---                         |
 |    json    | Data to be used in flask app                      |
 
-### TOAST UI Editor's Wrappers
+# Code and Resources Used
 
 | Name | Description |
-| --- | --- |
-| [`@toast-ui/react-editor`](https://github.com/nhn/tui.editor/tree/master/apps/react-editor) | [React](https://reactjs.org/) wrapper component |
-| [`@toast-ui/vue-editor`](https://github.com/nhn/tui.editor/tree/master/apps/vue-editor) | [Vue](https://vuejs.org/) wrapper component |
+
 
 ### TOAST UI Editor's Plugins
 
