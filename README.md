@@ -26,25 +26,25 @@
 
 ### Packages Used in the Project.
 
-| Name | Description |
-| --- | --- |
-| Selenium | Python Library for Data Scraping |
-| --- | --- |
-| Pandas | Python Library for Data Cleaning & EDA |
-| --- | --- |
-| Numpy | Python Library |
-| --- | --- |
-| Matplotlib | Python Library for Visualization of data |
-| --- | --- |
-| Seaborn | Python Library for Visualization of data |
-| --- | --- |
-| SkLearn | Python Library for Machine learning Models|
-| --- | --- |
-| flask | To put trained model into flask app|
-| --- | --- |
-| Pickle | Used for make the pickle file to use in flask app |
-| --- | --- |
-| json | Data to be used in flask app|
+|    Name    |                    Description                    |
+|    ---     |                       ---                         |
+|  Selenium  | Python Library for Data Scraping                  |
+|    ---     |                       ---                         |
+|   Pandas   | Python Library for Data Cleaning & EDA            |
+|    ---     |                       ---                         |
+|   Numpy    | Python Library                                    |
+|    ---     |                       ---                         |
+| Matplotlib | Python Library for Visualization of data          |
+|    ---     |                       ---                         |
+|  Seaborn   | Python Library for Visualization of data          |
+|    ---     |                       ---                         |
+|  SkLearn   | Python Library for Machine learning Models        |
+|    ---     |                       ---                         |
+|   flask    | To put trained model into flask app               |
+|    ---     |                       ---                         |
+|   Pickle   | Used for make the pickle file to use in flask app |
+|    ---     |                       ---                         |
+|    json    | Data to be used in flask app                      |
 
 ### TOAST UI Editor's Wrappers
 
