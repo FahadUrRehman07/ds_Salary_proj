@@ -56,13 +56,8 @@
 # Code and Resources Used
 
 | Name | Description |
-
-
-### TOAST UI Editor's Plugins
-
-| Name | Description |
 | --- | --- |
-| [`@toast-ui/editor-plugin-chart`](https://github.com/nhn/tui.editor/tree/master/plugins/chart) | Plugin to render chart |
+| https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe | Version = 7.3 |
 | [`@toast-ui/editor-plugin-code-syntax-highlight`](https://github.com/nhn/tui.editor/tree/master/plugins/code-syntax-highlight) | Plugin to highlight code syntax |
 | [`@toast-ui/editor-plugin-color-syntax`](https://github.com/nhn/tui.editor/tree/master/plugins/color-syntax) | Plugin to color editing text |
 | [`@toast-ui/editor-plugin-table-merged-cell`](https://github.com/nhn/tui.editor/tree/master/plugins/table-merged-cell) | Plugin to merge table columns |
