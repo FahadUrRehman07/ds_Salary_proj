@@ -1,9 +1,13 @@
 import requests
+
 from Data_input import data_in
 
-URL = 'http://127.0.0.1:5000/predict'
-headers= {'Content-Type': 'application/json'}
+URL = "http://127.0.0.1:5000/predict"
 
-data = {'input': data_in}
-r = requests.get(URL, headers=headers, json=data)
-r.json()
+response = requests.post(
+    URL,
+    json={"input": data_in},
+    timeout=30,
+)
+response.raise_for_status()
+print(response.json())
