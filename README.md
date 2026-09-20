@@ -57,6 +57,10 @@ A Flask API is included to accept job-related inputs and return an estimated sal
 
 Python · Pandas · NumPy · Scikit-learn · Selenium · Matplotlib · Seaborn · Flask
 
+## 🧰 Web Scraping Setup
+
+The scraper uses Selenium with a locally installed Chrome/Chromium browser and compatible driver. Browser-driver binaries are intentionally not committed to the repository. Configure the driver path for your own machine before running `glassdoor_scraper.py`.
+
 ## ⚠️ Reproducibility Notes
 
 The repository contains older artifacts, including notebook checkpoints and historical environment references. These should be standardized before presenting the project as fully reproducible.
