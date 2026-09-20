@@ -61,6 +61,23 @@ Python · Pandas · NumPy · Scikit-learn · Selenium · Matplotlib · Seaborn �
 
 The scraper uses Selenium with a locally installed Chrome/Chromium browser and compatible driver. Browser-driver binaries are intentionally not committed to the repository. Configure the driver path for your own machine before running `glassdoor_scraper.py`.
 
+## 🔌 Flask API
+
+The API exposes:
+
+- `GET /health` — basic service health check
+- `POST /predict` — accepts a JSON body with an `input` feature vector and returns the model prediction
+
+Example request:
+
+```json
+{
+  "input": [3.6, 0, 0, 1]
+}
+```
+
+The deployed model is loaded from `FlaskAPI/models/model_file.p`. Browser-driver binaries and Python cache files are intentionally excluded from version control.
+
 ## ⚠️ Reproducibility Notes
 
 The repository contains older artifacts, including notebook checkpoints and historical environment references. These should be standardized before presenting the project as fully reproducible.
